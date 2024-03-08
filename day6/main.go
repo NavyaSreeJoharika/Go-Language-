@@ -146,13 +146,13 @@ func main() {
 	arr1 :=[]int{1,4,6,3,2,7,9,0,74,7}
 	fmt.Println(len(arr1))
 
-	number := arr1( :(len(arr1))-4);
+	number := arr1[ :(len(arr1))-4];
 	numberc := make([]int,len(number))
-	nnnn :=copy (numberc ,number)
+	copy (numberc ,number)
 
-	fmt.Println(nnnn)
-	//fmt.Println(len(nnnn))
-	//fmt.Println(cap(nnnn))
+	fmt.Println(numberc)
+	//fmt.Println(len(numberc))
+	//fmt.Println(cap(numberc))
 
 }
 */
