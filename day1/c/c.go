@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	var mNum = 50
-	fmt.Println(mNum)
+	var myNum = 50
+	fmt.Println(myNum)
 }
