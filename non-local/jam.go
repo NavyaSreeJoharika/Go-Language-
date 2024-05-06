@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("flow 1")
 	fmt.Println()
 
-	fmt.Print(1, 2, 3, 4, 5, 6, 7, 8)
+	fmt.Print(1, 2, 3, 4, 5, 6, 7, 8, "\n")
 	little()
 }
 
@@ -26,8 +26,8 @@ func little() {
 
 	}
 
-	for i := 0; i < 10; i++ {
-		fmt.Println("bruce", i)
+	for i := 0; i < 9; i++ {
+		fmt.Println("Greet", i)
 	}
 
 }
