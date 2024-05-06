@@ -8,9 +8,11 @@ func main() {
 
 	fmt.Println("Hello! Greetings Everyone ")
 
-	fmt.Println("hi , ni hao , hola , konichiwa , bonjour , Annyeong Haseyo ")
+	fmt.Println("hi , ni hao , hola , konichiwa , bonjour , Annyeong Haseyo , namaste , sawasdee krub/ka")
 	fmt.Println("feature1 branch ")
 
-	fmt.Println("main ")
+	fmt.Println("flow 1")
+
+	fmt.Print(1, 2, 3, 4, 5, 6, 7, 8)
 
 }
