@@ -25,15 +25,6 @@ func main() {
 }
 
 /*output
-arr1 = [9 10 11 12 13 14]
-myslice1 = [10 11 12 13]
-capacity = 5
-myslice1 = [10 11]
-length = 2
-capacity = 5
-myslice1 = [10 11 20 21 22 23]
-length = 6
-capacity = 10
 PS C:\clone golang\Go-Language-\ram> go run main.go
 arr1 = [9 10 11 12 13 14]
 myslice1 = [10 11 12 13]
