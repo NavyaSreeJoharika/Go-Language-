@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func mian() {
+func main() {
 	args := os.Args
 	if len(args) < 2 {
 		fmt.Println("Usage : mycli[command]")
