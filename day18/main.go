@@ -92,6 +92,7 @@ func main() {
 func divide(l, r int) int {
 	return l / r
 }
+// if divide function is  directly used we will get error in the code
 func divide1(l, r int) (int, error) {
 	if r == 0 {
 		return 0, errors.New("invalid divisor:must not be zero ")
