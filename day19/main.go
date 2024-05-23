@@ -70,6 +70,7 @@ func main() {
 	wg.Wait()
 }
 
+// wait group
 /*
 package main
 
